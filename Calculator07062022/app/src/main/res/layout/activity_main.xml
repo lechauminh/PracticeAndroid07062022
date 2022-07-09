@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:textAllCaps="true"
+            android:textSize="30sp"
+            android:textColor="#DC143C"
+            android:gravity="center"
+            android:text="Máy tính bỏ túi"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+        </TextView>
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/eTxtSo1"
+            android:drawableStart="@drawable/ic_drawable_1"
+            android:hint="Input 1"
+            android:inputType="number"
+            android:maxEms="9"
+            android:digits="0123456789."
+            android:maxLength="9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+        </EditText>
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/eTxtSo2"
+            android:hint="Input 2"
+            android:drawableStart="@drawable/ic_drawable_2"
+            android:inputType="number"
+            android:digits="0123456789."
+            android:maxLength="9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+        </EditText>
+        <TextView
+            android:id="@+id/txtKetQua"
+            android:layout_weight="2"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:textColor="#DC143C"
+            android:text="Kết quả là"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="5"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnCong"
+                android:layout_marginLeft="10dp"
+                android:textSize="30sp"
+                android:text="+"
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+            </Button>
+            <Button
+                android:id="@+id/btnTru"
+                android:layout_marginLeft="20dp"
+                android:textSize="30sp"
+                android:text="-"
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+            </Button>
+            <Button
+                android:id="@+id/btnNhan"
+                android:layout_marginLeft="20dp"
+                android:textSize="30sp"
+                android:text="x"
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+            </Button>
+            <Button
+                android:id="@+id/btnChia"
+                android:layout_marginLeft="20dp"
+                android:textSize="30sp"
+                android:text=":"
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+            </Button>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
