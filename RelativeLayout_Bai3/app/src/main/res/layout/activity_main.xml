@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:background="#F44336"
+        android:textColor="#FFFFFF"
+        android:text="Top Content Here"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:background="#CDDC39"
+        android:textColor="#FFFFFF"
+        android:text="Bottom Content Here"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:id="@+id/txtSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:background="#2196F3"
+        android:textColor="#FFFFFF"
+        android:text="Second"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/txtFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:background="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:text="First"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/txtSecond"
+        />
+
+    <TextView
+        android:id="@+id/txtThird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:background="#FFC107"
+        android:textColor="#FFFFFF"
+        android:text="Third"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/txtSecond"
+        />
+
+</RelativeLayout>
